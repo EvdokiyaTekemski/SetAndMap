@@ -27,6 +27,7 @@ public class CitiesbyontinentandCountry {
 
 citiesCountry.forEach((first,second)->{
         System.out.println(first+":");
+
         second.forEach((map,list)->
                 System.out.printf("%s -> %s%n", map, String.join(", ", list)));
     });
